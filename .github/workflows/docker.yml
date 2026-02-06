@@ -22,3 +22,7 @@ jobs:
 
       - name: Run Docker Container
         run: docker run python-hello-world
+
+      -name: update and upgrade
+       run: |
+          sudo apt update && sudo apt upgrade -y
